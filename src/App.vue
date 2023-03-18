@@ -1,9 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
- <MaListe/>
- <MaListe/>
- <MaListe/>
- 
+<p>header</p>
+<router-link to="/">MaHome</router-link> |
+<router-link to="/deux">PageDeux</router-link>
+<p>side</p>
+ <router-view />
+
+ <p>footer</p>
 </template>
 
 <script>
