@@ -1,7 +1,8 @@
 <template>
 <p>header</p>
 <router-link to="/">MaHome</router-link> |
-<router-link to="/deux">PageDeux</router-link>
+<router-link to="/deux">PageDeux</router-link> |  
+<router-link  :to=" {name : 'dd', params :{ id: 33}}">Page dynamique</router-link>   
 <p>side</p>
  <router-view />
 
